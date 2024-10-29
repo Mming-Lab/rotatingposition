@@ -1,0 +1,7 @@
+{
+    "positions.RotateCoordinate": "回転の原点、軸、角度を指定して座標を回転させる",
+    "positions.RotateCoordinate|param|targetCoordinates": "回転対象の座標",
+    "positions.RotateCoordinate|param|origin": "回転の中心とするワールド座標",
+    "positions.RotateCoordinate|param|axisOfRevolution": "回転する軸方向",
+    "positions.RotateCoordinate|param|angle": "角度(0~360)"
+}

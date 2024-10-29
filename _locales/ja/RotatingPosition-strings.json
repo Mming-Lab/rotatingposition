@@ -1,0 +1,3 @@
+{
+    "positions.RotateCoordinate|block": "回転対象座標 %targetCoordinates=minecraftCreateWorldInternal| 原点 %origin=minecraftCreateWorldInternal| 軸 %axisOfRevolution| 角度 %angle"
+}
