@@ -43,21 +43,21 @@ namespace positions {
 
 
         //座標を相対座標に変換
-        let 相対座標 = pos(
+        const 相対座標 = pos(
             targetCoordinates.getValue(Axis.X) - origin.getValue(Axis.X)
             , targetCoordinates.getValue(Axis.Y) - origin.getValue(Axis.Y)
             , targetCoordinates.getValue(Axis.Z) - origin.getValue(Axis.Z)
         );
 
         // 相対座標に回転行列を積算する
-        let 回転相対座標 = pos(
+        const 回転相対座標 = pos(
             R[0][0] * 相対座標.getValue(Axis.X) + R[0][1] * 相対座標.getValue(Axis.Y) + R[0][2] * 相対座標.getValue(Axis.Z)
             , R[1][0] * 相対座標.getValue(Axis.X) + R[1][1] * 相対座標.getValue(Axis.Y) + R[1][2] * 相対座標.getValue(Axis.Z)
             , R[2][0] * 相対座標.getValue(Axis.X) + R[2][1] * 相対座標.getValue(Axis.Y) + R[2][2] * 相対座標.getValue(Axis.Z)
         );
 
         //絶対座表示変換
-        let 結果 = positions.add(origin, 回転相対座標);
+        const 結果 = positions.add(origin, 回転相対座標);
         //player.say("(" + 結果.getValue(Axis.X) + ", " + 結果.getValue(Axis.Y) + ", " + 結果.getValue(Axis.Z) + ")")
         return 結果;
     }
