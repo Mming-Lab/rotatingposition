@@ -1,24 +1,27 @@
+# Rotating Position
 
-> このページを開く [https://mming-lab.github.io/rotatingposition/](https://mming-lab.github.io/rotatingposition/)
+A MakeCode extension for Minecraft that lets you rotate positions in 3D space.
 
-## 拡張機能として使用
+> [日本語版はこちら / Japanese version](README_ja.md)
 
-このリポジトリは、MakeCode で **拡張機能** として追加できます。
+## What does this do?
 
-* [https://minecraft.makecode.com/](https://minecraft.makecode.com/) を開く
-* **新しいプロジェクト** をクリックしてください
-* ギアボタンメニューの中にある **拡張機能** をクリックしてください
-* **https://github.com/mming-lab/rotatingposition** を検索してインポートします。
+This extension adds a block that rotates any position around a center point. Perfect for:
+- Creating tilted buildings and structures
+- Building complex geometric patterns
 
-## このプロジェクトを編集します
+## How to use
 
-MakeCode でこのリポジトリを編集します。
+After adding the extension, you'll find a new block in the **Positions** category:
 
-* [https://minecraft.makecode.com/](https://minecraft.makecode.com/) を開く
-* **読み込む** をクリックし、 **URLから読み込む...** をクリックしてください
-* **https://github.com/mming-lab/rotatingposition** を貼り付けてインポートをクリックしてください
+**"Rotation target position [position] Origin [position] Axis [X/Y/Z] Angle [0-360]"**
 
-#### メタデータ (検索、レンダリングに使用)
+### What each part means:
 
-* for PXT/minecraft
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+- **Rotation target position**: The point you want to rotate
+- **Origin**: The center point to rotate around
+- **Axis**: Which direction to rotate (X, Y, or Z)
+- **Angle**: How many degrees to rotate (0-360)
+
+This is great for making things spin around a center point!
+
