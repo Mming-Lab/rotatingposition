@@ -1,3 +1,3 @@
 {
-    "positions.RotateCoordinate|block": "座標 $targetCoordinates を原点 $origin を中心に軸 $axisOfRevolution で $angle 度回転"
+    "positions.RotateCoordinate|block": "座標 $targetCoordinates を、座標 $origin を中心にとして軸 $axisOfRevolution 周りに $angle 度回転させる"
 }
